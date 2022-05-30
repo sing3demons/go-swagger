@@ -1,8 +1,9 @@
+# go-swagger
+
+```swagger
+swag init
+```
 
 ```
-swag init -g main.go
-```
-
-```
-make run
+go run main.go
 ```
