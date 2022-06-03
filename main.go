@@ -35,7 +35,7 @@ func main() {
 
 	// Listen from a different goroutine
 	go func() {
-		if err := app.Listen(":3000"); err != nil {
+		if err := app.Listen(":8080"); err != nil {
 			log.Panic(err)
 		}
 	}()
